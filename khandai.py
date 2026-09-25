@@ -1,6 +1,5 @@
 import requests
 from datetime import datetime, timezone, timedelta
-import os
 
 API_URL = "https://www.khandai1.link/api/matches/?ordering=smart&page_size=30"
 OUTPUT_FILE = "khandai.m3u"
@@ -21,7 +20,7 @@ def convert_to_vn_time(utc_str):
     try:
         dt_utc = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
         dt_vn = dt_utc.astimezone(VN_TZ)
-        # đổi format sang 24/09 23:00
+        # format ngắn gọn: 24/09 23:00
         return dt_vn.strftime("%d/%m %H:%M")
     except Exception:
         return utc_str
@@ -40,14 +39,13 @@ def build_playlist(matches):
             if not commentators:
                 continue
             stream_url = commentators[0].get("stream_url", "")
-            commentator = commentators[0].get("name", "")
 
-            # format: logo, ngày giờ VN, tên trận
-            title = f'{start_vn} ⚽ {home} vs {away} ({commentator})'
-            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Khán Đài TV" , {title}\n')
+            # format: ngày giờ VN + tên trận
+            title = f"{start_vn} - {home} vs {away}"
+            f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Khán Đài TV",{title}\n')
             f.write(f"{stream_url}\n")
 
-            print("Match:", home, "vs", away, "| Logo:", logo, "| URL:", stream_url)
+            print("Match:", home, "vs", away, "| Time:", start_vn, "| URL:", stream_url)
 
 if __name__ == "__main__":
     matches = fetch_matches()

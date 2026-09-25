@@ -1,9 +1,12 @@
 name: Build Khandai M3U Playlist
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:        # cho phép chạy thủ công
   schedule:
-    - cron: "0 * * * *"   # chạy mỗi giờ
+    - cron: "0 * * * *"     # chạy mỗi giờ
+
+permissions:
+  contents: write           # cấp quyền ghi repo
 
 jobs:
   build:

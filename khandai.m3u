@@ -1,14 +1,5 @@
 #EXTM3U
-# Generated at 2026-09-27 20:27:39
-
-#EXTINF:-1 tvg-name="Israel vs Ireland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_690.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Israel vs Ireland (0-3) | [Chim Nhỏ]
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
-
-#EXTINF:-1 tvg-name="Germany vs Greece" tvg-logo="https://www.khandai1.link/media/teams/logos/team_21.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Germany vs Greece (0-1) | [Pháo Thủ]
-https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
-
-#EXTINF:-1 tvg-name="Norway vs Portugal" tvg-logo="https://www.khandai1.link/media/teams/logos/team_692.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Norway vs Portugal (1-2) | [Lee Sin]
-https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+# Generated at 2026-09-27 20:45:20
 
 #EXTINF:-1 tvg-name="Columbus Crew vs Inter Miami" tvg-logo="https://www.khandai1.link/media/teams/logos/team_306.jpg" group-title="Bóng đá | MLS",28/09 06:00 | Columbus Crew vs Inter Miami | [Tày]
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149

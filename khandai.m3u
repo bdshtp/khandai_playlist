@@ -1,19 +1,16 @@
 #EXTM3U
-# Generated at 2026-09-27 18:05:25
+# Generated at 2026-09-27 18:31:17
 
-#EXTINF:-1 tvg-name="Imoco vs Milano" tvg-logo="https://www.khandai1.link/media/teams/logos/Imocovolley.png" group-title="Bóng chuyền | Giao Hữu",27/09 23:00 | Imoco vs Milano (0-0) | [KaKa]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-name="Bahrain vs United Arab Emirates" tvg-logo="https://www.khandai1.link/media/teams/logos/team_643.jpg" group-title="Bóng đá | Gulf Cup of Nations",28/09 01:00 | Bahrain vs United Arab Emirates (0-0) | [Kền Kền]
+#EXTINF:-1 tvg-name="Bahrain vs United Arab Emirates" tvg-logo="https://www.khandai1.link/media/teams/logos/team_643.jpg" group-title="Bóng đá | Gulf Cup of Nations",28/09 01:00 | Bahrain vs United Arab Emirates (0-1) | [Kền Kền]
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
+#EXTINF:-1 tvg-name="Israel vs Ireland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_690.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Israel vs Ireland (0-0) | [Chim Nhỏ]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-name="Germany vs Greece" tvg-logo="https://www.khandai1.link/media/teams/logos/team_21.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Germany vs Greece (0-0) | [Pháo Thủ]
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
-#EXTINF:-1 tvg-name="Israel vs Ireland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_690.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Israel vs Ireland | [Chim Nhỏ]
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
-
-#EXTINF:-1 tvg-name="Norway vs Portugal" tvg-logo="https://www.khandai1.link/media/teams/logos/team_692.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Norway vs Portugal | [Lee Sin]
+#EXTINF:-1 tvg-name="Norway vs Portugal" tvg-logo="https://www.khandai1.link/media/teams/logos/team_692.jpg" group-title="Bóng đá | UEFA Nations League",28/09 01:45 | Norway vs Portugal (0-0) | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-name="Columbus Crew vs Inter Miami" tvg-logo="https://www.khandai1.link/media/teams/logos/team_306.jpg" group-title="Bóng đá | MLS",28/09 06:00 | Columbus Crew vs Inter Miami | [Tày]

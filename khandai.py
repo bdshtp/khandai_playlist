@@ -1,65 +1,98 @@
-import requests
-from datetime import datetime, timezone, timedelta
-import os
+#!/usr/bin/env python3
+"""
+khandai.py - Lấy danh sách trận từ API Khandai và xuất file khandai.m3u
+"""
 
-API_URL = "https://www.khandai1.link/api/matches/?ordering=smart&page_size=30"
+import json
+import urllib.request
+from datetime import datetime
+from pathlib import Path
+
+API_URL = "https://www.khandai1.link/api/matches/?ordering=smart&page_size=50"
 OUTPUT_FILE = "khandai.m3u"
 
-VN_TZ = timezone(timedelta(hours=7))
 
 def fetch_matches():
+    req = urllib.request.Request(
+        API_URL,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; KhandaiM3U/1.0)"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.load(resp)
+
+
+def format_time(iso_str: str) -> str:
     try:
-        resp = requests.get(API_URL, timeout=30)
-        print("🔎 Status code:", resp.status_code)
-        print("🔎 Headers:", resp.headers)
-        print("🔎 First 300 chars of response:", resp.text[:300])
-        resp.raise_for_status()
-        data = resp.json()
-        return data.get("results", [])
-    except Exception as e:
-        print(f"⚠️ Lỗi khi gọi API: {e}")
-        return []
+        # Ví dụ: 2026-09-27T20:00:00+07:00
+        dt = datetime.fromisoformat(iso_str)
+        return dt.strftime("%H:%M %d/%m")
+    except Exception:
+        return ""
 
-def convert_to_vn_time(utc_str):
-    try:
-        dt_utc = datetime.fromisoformat(utc_str.replace("Z", "+00:00"))
-        dt_vn = dt_utc.astimezone(VN_TZ)
-        return dt_vn.strftime("%d/%m %H:%M")
-    except Exception as e:
-        print(f"⚠️ Lỗi khi convert time: {e}")
-        return utc_str
 
-def build_playlist(matches):
-    try:
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-            for match in matches:
-                home = match.get("home_team_name", "")
-                away = match.get("away_team_name", "")
-                start_time = match.get("start_time", "")
-                start_vn = convert_to_vn_time(start_time) if start_time else "N/A"
+def build_m3u(matches: list) -> str:
+    lines = ["#EXTM3U"]
+    lines.append(f"# Generated at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    lines.append("")
 
-                logo = match.get("home_team_logo", "")
-                commentators = match.get("commentators", [])
-                if not commentators:
-                    print(f"⚠️ Trận {home} vs {away} không có commentator/stream")
-                    continue
-                stream_url = commentators[0].get("stream_url", "")
+    for match in matches:
+        home = match.get("home_team_name", "Home")
+        away = match.get("away_team_name", "Away")
+        sport = match.get("sport_name", "Khác")
+        tournament = match.get("tournament_name", "")
+        status = match.get("status", "")
+        start = format_time(match.get("start_time", ""))
+        score = ""
+        if status == "live":
+            hs = match.get("home_score", 0)
+            as_ = match.get("away_score", 0)
+            score = f" ({hs}-{as_})"
 
-                title = f"{start_vn} - {home} vs {away}"
-                f.write(f'#EXTINF:-1 tvg-logo="{logo}" group-title="Khán Đài TV",{title}\n')
-                f.write(f"{stream_url}\n")
-        print(f"✅ Đã ghi file {OUTPUT_FILE} tại {os.path.abspath(OUTPUT_FILE)}")
-    except Exception as e:
-        print(f"⚠️ Lỗi khi ghi file: {e}")
+        commentators = match.get("commentators") or []
+        for c in commentators:
+            stream = c.get("stream_url") or ""
+            if not stream:
+                continue
+
+            commentator = c.get("name", "")
+            is_live = c.get("is_live", False)
+
+            # Tên hiển thị
+            title_parts = [f"{home} vs {away}{score}"]
+            if commentator:
+                title_parts.append(f"[{commentator}]")
+            if start:
+                title_parts.append(start)
+            title = " ".join(title_parts)
+
+            # Group theo môn thể thao + giải
+            group = sport
+            if tournament:
+                group = f"{sport} | {tournament}"
+
+            # EXTINF
+            lines.append(
+                f'#EXTINF:-1 tvg-name="{home} vs {away}" '
+                f'group-title="{group}",{title}'
+            )
+            lines.append(stream)
+            lines.append("")
+
+    return "\n".join(lines)
+
+
+def main():
+    print("Đang lấy dữ liệu từ API...")
+    data = fetch_matches()
+    matches = data.get("results") or []
+    print(f"Tìm thấy {len(matches)} trận")
+
+    content = build_m3u(matches)
+
+    Path(OUTPUT_FILE).write_text(content, encoding="utf-8")
+    print(f"Đã ghi file: {OUTPUT_FILE}")
+    print(f"Số dòng: {len(content.splitlines())}")
+
 
 if __name__ == "__main__":
-    matches = fetch_matches()
-    print(f"🔎 Số trận lấy được: {len(matches)}")
-    if matches:
-        build_playlist(matches)
-    else:
-        # vẫn tạo file rỗng để workflow có artifact
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("#EXTM3U\n")
-        print(f"⚠️ Không có dữ liệu trận đấu, nhưng vẫn tạo file rỗng {OUTPUT_FILE}")
+    main()

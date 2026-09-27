@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 khandai.py - Lấy danh sách trận từ API Khandai và xuất file khandai.m3u
-Thứ tự hiển thị: Thời gian → Logo → Tên trận
+Thứ tự hiển thị: Ngày + Giờ → Logo → Tên trận
 """
 
 import json
@@ -32,10 +32,11 @@ def make_absolute(url: str) -> str:
     return BASE_URL.rstrip("/") + "/" + url.lstrip("/")
 
 
-def format_time(iso_str: str) -> str:
+def format_datetime(iso_str: str) -> str:
+    """Trả về dạng: 27/09 20:00"""
     try:
         dt = datetime.fromisoformat(iso_str)
-        return dt.strftime("%H:%M")
+        return dt.strftime("%d/%m %H:%M")
     except Exception:
         return ""
 
@@ -51,7 +52,7 @@ def build_m3u(matches: list) -> str:
         sport = match.get("sport_name", "Khác")
         tournament = match.get("tournament_name", "")
         status = match.get("status", "")
-        start = format_time(match.get("start_time", ""))
+        start = format_datetime(match.get("start_time", ""))
 
         # Điểm số nếu đang live
         score = ""
@@ -71,11 +72,10 @@ def build_m3u(matches: list) -> str:
 
             commentator = c.get("name", "")
 
-            # ===== Thứ tự hiển thị: Thời gian → Tên trận =====
-            # Logo được gắn qua thuộc tính tvg-logo
+            # ===== Thứ tự: Ngày + Giờ → Tên trận =====
             title_parts = []
             if start:
-                title_parts.append(start)
+                title_parts.append(start)          # ví dụ: 27/09 20:00
             title_parts.append(f"{home} vs {away}{score}")
             if commentator:
                 title_parts.append(f"[{commentator}]")

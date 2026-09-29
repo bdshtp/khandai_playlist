@@ -1,22 +1,22 @@
 #EXTM3U
-# Generated at 2026-09-29 18:07:18
+# Generated at 2026-09-29 18:36:04
 
-#EXTINF:-1 tvg-name="Saudi Arabia vs Iraq" tvg-logo="https://www.khandai1.link/media/teams/logos/team_647.jpg" group-title="Bóng đá | Gulf Cup of Nations",30/09 00:30 | Saudi Arabia vs Iraq (0-0) | [Enzo]
+#EXTINF:-1 tvg-name="Saudi Arabia vs Iraq" tvg-logo="https://www.khandai1.link/media/teams/logos/team_647.jpg" group-title="Bóng đá | Gulf Cup of Nations",30/09 00:30 | Saudi Arabia vs Iraq | [Enzo]
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+
+#EXTINF:-1 tvg-name="Scotland vs Switzerland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_15.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Scotland vs Switzerland (0-0) | [Chim Nhỏ]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-name="Slovenia vs North Macedonia" tvg-logo="https://www.khandai1.link/media/teams/logos/team_696.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Slovenia vs North Macedonia (0-0) | [Pháo Thủ]
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
-#EXTINF:-1 tvg-name="Scotland vs Switzerland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_15.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Scotland vs Switzerland | [Chim Nhỏ]
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
-
-#EXTINF:-1 tvg-name="Czech Republic vs England" tvg-logo="https://www.khandai1.link/media/teams/logos/team_13.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Czech Republic vs England | [Lee Sin]
+#EXTINF:-1 tvg-name="Czech Republic vs England" tvg-logo="https://www.khandai1.link/media/teams/logos/team_13.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Czech Republic vs England (0-0) | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-name="Spain vs Croatia" tvg-logo="https://www.khandai1.link/media/teams/logos/team_19.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Spain vs Croatia | [Tày]
+#EXTINF:-1 tvg-name="Spain vs Croatia" tvg-logo="https://www.khandai1.link/media/teams/logos/team_19.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Spain vs Croatia (0-0) | [Tày]
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-name="Slovakia vs Kazakhstan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_20.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Slovakia vs Kazakhstan | [Kền Kền]
+#EXTINF:-1 tvg-name="Slovakia vs Kazakhstan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_20.jpg" group-title="Bóng đá | UEFA Nations League",30/09 01:45 | Slovakia vs Kazakhstan (0-0) | [Kền Kền]
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
 #EXTINF:-1 tvg-name="South Korea U23 vs China U23" tvg-logo="https://www.khandai1.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Bóng đá | Asian Games",30/09 13:00 | South Korea U23 vs China U23 | [Kền Kền]

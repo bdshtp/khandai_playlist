@@ -1,7 +1,7 @@
 #EXTM3U
-# Generated at 2026-10-01 14:51:25
+# Generated at 2026-10-01 15:06:23
 
-#EXTINF:-1 tvg-name="Uzbekistan vs Syria" tvg-logo="https://www.khandai1.link/media/teams/logos/team_646.jpg" group-title="Bóng đá | Friendlies",01/10 21:00 | Uzbekistan vs Syria | [Pháo Thủ]
+#EXTINF:-1 tvg-name="Uzbekistan vs Syria" tvg-logo="https://www.khandai1.link/media/teams/logos/team_646.jpg" group-title="Bóng đá | Friendlies",01/10 21:00 | Uzbekistan vs Syria (2-0) | [Pháo Thủ]
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
 #EXTINF:-1 tvg-name="Guinea vs Kenya" tvg-logo="https://www.khandai1.link/media/teams/logos/team_722.jpg" group-title="Bóng đá | Africa Cup of Nations Qualification",01/10 23:00 | Guinea vs Kenya | [Tiểu Mây]
@@ -46,10 +46,10 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTINF:-1 tvg-name="Thái Lan vs Philippines" tvg-logo="https://www.khandai1.link/media/teams/logos/team_480.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",02/10 15:00 | Thái Lan vs Philippines | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-name="Việt Nam vs Pakistan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_479.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",02/10 16:00 | Việt Nam vs Pakistan | [Chim Nhỏ]
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
+#EXTINF:-1 tvg-name="Việt Nam vs Pakistan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_479.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",02/10 15:00 | Việt Nam vs Pakistan | [Pháo Thủ]
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
-#EXTINF:-1 tvg-name="Việt Nam vs Pakistan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_479.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",02/10 16:00 | Việt Nam vs Pakistan | [Tày]
+#EXTINF:-1 tvg-name="Việt Nam vs Pakistan" tvg-logo="https://www.khandai1.link/media/teams/logos/team_479.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",02/10 15:00 | Việt Nam vs Pakistan | [Tày]
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-name="Việt Nam vs Indonesia" tvg-logo="https://www.khandai1.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Bóng chuyền | ASIAD GAME",02/10 17:00 | Việt Nam vs Indonesia | [Lee Sin]
@@ -61,8 +61,8 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTINF:-1 tvg-name="North Korea W vs Japan W" tvg-logo="https://www.khandai1.link/media/teams/logos/team_31639.jpg" group-title="Bóng đá | Asian Games",02/10 17:30 | North Korea W vs Japan W | [Kền Kền]
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
-#EXTINF:-1 tvg-name="South Korea vs Venezuela" tvg-logo="https://www.khandai1.link/media/teams/logos/team_651.jpg" group-title="Bóng đá | Friendlies",02/10 18:00 | South Korea vs Venezuela | [Pháo Thủ]
-https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+#EXTINF:-1 tvg-name="South Korea vs Venezuela" tvg-logo="https://www.khandai1.link/media/teams/logos/team_651.jpg" group-title="Bóng đá | Friendlies",02/10 18:00 | South Korea vs Venezuela | [Chim Nhỏ]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-name="China vs Palestine" tvg-logo="https://www.khandai1.link/media/teams/logos/team_639.jpg" group-title="Bóng đá | Friendlies",02/10 18:35 | China vs Palestine | [Tiểu Mây]
 https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149

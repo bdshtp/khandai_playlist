@@ -1,14 +1,11 @@
 #EXTM3U
-# Generated at 2026-10-01 11:31:11
+# Generated at 2026-10-01 11:50:15
 
 #EXTINF:-1 tvg-name="Philippines vs Indonesia" tvg-logo="https://www.khandai1.link/media/teams/logos/OIP_njudfFz.jpg" group-title="Bóng chuyền | ASIAD GAME",01/10 17:00 | Philippines vs Indonesia (0-0) | [Enzo]
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 
 #EXTINF:-1 tvg-name="Japan vs Ecuador" tvg-logo="https://www.khandai1.link/media/teams/logos/team_540.jpg" group-title="Bóng đá | Friendlies",01/10 17:10 | Japan vs Ecuador (0-0) | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-name="Nhật Bản vs Qatar" tvg-logo="https://www.khandai1.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Bóng chuyền | ASIAD GAME",01/10 17:20 | Nhật Bản vs Qatar (0-0) | [KaKa]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-name="Indonesia vs Bangladesh" tvg-logo="https://www.khandai1.link/media/teams/logos/team_484.jpg" group-title="Bóng đá |  Copa De La Liga - Play Offs",01/10 19:30 | Indonesia vs Bangladesh | [Chim Nhỏ]
 https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d

@@ -1,5 +1,5 @@
 #EXTM3U
-# Generated at 2026-10-02 01:48:42
+# Generated at 2026-10-02 02:05:56
 
 #EXTINF:-1 tvg-name="Ấn Độ vs Hàn Quốc" tvg-logo="https://www.khandai1.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Bóng chuyền | ASIAD GAME",02/10 08:00 | Ấn Độ vs Hàn Quốc (0-0) | [Tày]
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
@@ -66,3 +66,39 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 
 #EXTINF:-1 tvg-name="France vs Italy" tvg-logo="https://www.khandai1.link/media/teams/logos/team_22.jpg" group-title="Bóng đá | UEFA Nations League",03/10 01:45 | France vs Italy | [Chim Nhỏ]
 https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
+
+#EXTINF:-1 tvg-name="China U23 vs Uzbekistan U23" tvg-logo="https://www.khandai1.link/media/teams/logos/team_9462.jpg" group-title="Bóng đá | Asian Games",03/10 13:00 | China U23 vs Uzbekistan U23 | [Tày]
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-name="Hong Kong vs Cambodia" tvg-logo="https://www.khandai1.link/media/teams/logos/download_IAaCYjl.png" group-title="Bóng đá | Fifa Asean Cup",03/10 17:00 | Hong Kong vs Cambodia | [Pháo Thủ]
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+
+#EXTINF:-1 tvg-name="South Korea U23 vs Japan U23" tvg-logo="https://www.khandai1.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Bóng đá | Asian Games",03/10 17:30 | South Korea U23 vs Japan U23 | [Lee Sin]
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-name="Finland vs Albania" tvg-logo="https://www.khandai1.link/media/teams/logos/team_8.jpg" group-title="Bóng đá | UEFA Nations League",03/10 20:00 | Finland vs Albania | [Kền Kền]
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
+#EXTINF:-1 tvg-name="Croatia vs England" tvg-logo="https://www.khandai1.link/media/teams/logos/team_14.jpg" group-title="Bóng đá | UEFA Nations League",03/10 23:00 | Croatia vs England | [Chim Nhỏ]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
+
+#EXTINF:-1 tvg-name="Belarus vs San Marino" tvg-logo="https://www.khandai1.link/media/teams/logos/team_687.jpg" group-title="Bóng đá | UEFA Nations League",03/10 23:00 | Belarus vs San Marino | [Kền Kền]
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
+#EXTINF:-1 tvg-name="Estonia vs Luxembourg" tvg-logo="https://www.khandai1.link/media/teams/logos/team_688.jpg" group-title="Bóng đá | UEFA Nations League",03/10 23:00 | Estonia vs Luxembourg | [Enzo]
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+
+#EXTINF:-1 tvg-name="Iceland vs Bulgaria" tvg-logo="https://www.khandai1.link/media/teams/logos/team_704.jpg" group-title="Bóng đá | UEFA Nations League",03/10 23:00 | Iceland vs Bulgaria | [Tiểu Mây]
+https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-name="North Macedonia vs Scotland" tvg-logo="https://www.khandai1.link/media/teams/logos/team_11.jpg" group-title="Bóng đá | UEFA Nations League",04/10 01:45 | North Macedonia vs Scotland | [Lee Sin]
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-name="Switzerland vs Slovenia" tvg-logo="https://www.khandai1.link/media/teams/logos/team_2.jpg" group-title="Bóng đá | UEFA Nations League",04/10 01:45 | Switzerland vs Slovenia | [Chim Nhỏ]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
+
+#EXTINF:-1 tvg-name="Spain vs Czech Republic" tvg-logo="https://www.khandai1.link/media/teams/logos/team_19.jpg" group-title="Bóng đá | UEFA Nations League",04/10 01:45 | Spain vs Czech Republic | [Tày]
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-name="Ivory Coast vs Cameroon" tvg-logo="https://www.khandai1.link/media/teams/logos/team_738.jpg" group-title="Bóng đá | Friendlies",04/10 02:00 | Ivory Coast vs Cameroon | [Pháo Thủ]
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262

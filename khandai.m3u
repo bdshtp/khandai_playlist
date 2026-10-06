@@ -1,11 +1,8 @@
 #EXTM3U
-# Generated at 2026-10-06 15:50:53
+# Generated at 2026-10-06 16:07:29
 
-#EXTINF:-1 tvg-name="India vs Uruguay" tvg-logo="https://www.khandai1.link/media/teams/logos/team_347.jpg" group-title="Bóng đá | Friendlies",06/10 21:00 | India vs Uruguay (1-2) | [Lee Sin]
+#EXTINF:-1 tvg-name="India vs Uruguay" tvg-logo="https://www.khandai1.link/media/teams/logos/team_347.jpg" group-title="Bóng đá | Friendlies",06/10 21:00 | India vs Uruguay (1-4) | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-name="Kazakhstan vs Faroe Islands" tvg-logo="https://www.khandai1.link/media/teams/logos/team_686.jpg" group-title="Bóng đá | UEFA Nations League",06/10 21:00 | Kazakhstan vs Faroe Islands (2-2) | [Tày]
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-name="Russia vs Nigeria" tvg-logo="https://www.khandai1.link/media/teams/logos/team_5.jpg" group-title="Bóng đá | Friendlies",06/10 23:00 | Russia vs Nigeria (0-0) | [Tiểu Mây]
 https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
@@ -34,7 +31,7 @@ https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5
 #EXTINF:-1 tvg-name="Buriram vs Borneo" tvg-logo="https://www.khandai1.link/media/teams/logos/team_7565.jpg" group-title="Bóng đá | ASEAN Club Championship",07/10 19:00 | Buriram vs Borneo | [Pháo Thủ]
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
-#EXTINF:-1 tvg-name="Ratchaburi vs Công An HCM" tvg-logo="https://www.khandai1.link/media/teams/logos/team_397.jpg" group-title="Bóng đá | ASEAN Club Championship",07/10 19:00 | Ratchaburi vs Công An HCM | [Tày]
+#EXTINF:-1 tvg-name="Ratchaburi vs Công An HCM" tvg-logo="https://www.khandai1.link/media/teams/logos/Ratchaburi_Mitr_Phol_logo_2019.png" group-title="Bóng đá | ASEAN Club Championship",07/10 19:00 | Ratchaburi vs Công An HCM | [Tày]
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-name="Kuching City FC vs Tampines" tvg-logo="https://www.khandai1.link/media/teams/logos/team_5306.jpg" group-title="Bóng đá | ASEAN Club Championship",07/10 20:00 | Kuching City FC vs Tampines | [Kền Kền]
@@ -57,6 +54,3 @@ https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5
 
 #EXTINF:-1 tvg-name="Lion City vs Công An Hà Nội" tvg-logo="https://www.khandai1.link/media/teams/logos/team_468.jpg" group-title="Bóng đá | ASEAN Club Championship",08/10 18:30 | Lion City vs Công An Hà Nội | [Lee Sin]
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-name="Vakifbank vs Eczacibasi" tvg-logo="https://www.khandai1.link/media/teams/logos/image_2.webp" group-title="Bóng chuyền | Super Cup",06/10 22:00 | Vakifbank vs Eczacibasi | [KaKa]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
